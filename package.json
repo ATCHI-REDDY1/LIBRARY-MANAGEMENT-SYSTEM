@@ -1,0 +1,18 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "node -e \"console.log('Static frontend ready')\"",
+    "export": "node backend/export-excel.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.8",
+    "exceljs": "^4.4.0",
+    "msnodesqlv8": "^6.2.2",
+    "mssql": "^12.8.1",
+    "nodemailer": "^7.0.0"
+  }
+}
